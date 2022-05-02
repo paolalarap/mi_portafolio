@@ -1,0 +1,71 @@
+{% extends 'base.html' %} 
+
+{% block 'content' %} 
+{% load static %}
+<div class="container text-center">
+    <img src="{% static 'fotoperfil.jpg'%}" class="rounded  mx-auto  d-block mb-2 mt-2" alt="img-fluid" width="180" height="220" >
+    <h6 class="text-center fs-1">
+        Paola Alejandra Lara Pacheco
+    </h6>
+</div>
+<div class="container py-3">
+    <hr class="opacity-100 w-25 mx-auto">
+    <h3 class="fw'bold fst-italic bg-success p-2 text-dark bg-opacity-10" style="text-align: justify">
+            “Hola, soy Paola, Ingeniera Comercial de profesión y actualmente me encuentro en la búsqueda de nuevas oportunidades orientadas en satisfacer las necesidades del mercado, dentro de esta búsqueda comprendí que debía orientar mis conocimientos en programación.
+Durante doce años estuve alejada del mundo laboral para dedicarme al cuidado de mi hijo, por eso tengo poca experiencia laboral.”
+Te debes preguntar ¿Por qué la contrataría?
+Mi respuesta a eso: porque a pesar de la poca experiencia tengo una desbordante energía para cumplir los objetivos con criterio, autonomía y eficiencia.”
+
+    </h3>
+    <hr class="opacity-100 w-25 mx-auto">
+</div>
+{% load static %}
+<div class="container py-3">
+<div class="row">
+    <h3 class="text-center mb-2 mt-2">Habilidades técnicas y lenguaje</h3>
+    <div class="col-12 col-sm-4 my-3">
+        <div class="card text-center" style="width: 18rem;">
+            <img src="{% static 'lenguaje.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">LENGUAJE: Python</p>
+            </div>
+        </div>
+    </div>    
+    <div class="col-12 col-sm-4 my-3">
+        <div class="card text-center" style="width: 18rem;">
+            <img src="{% static 'FrontEnd.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">FRONTED: Html, Css, Bootstrap, Javascript</p>
+            </div>
+        </div>
+    </div>   
+    <div class="col-12 col-sm-4 my-3">
+        <div class="card text-center" style="width: 18rem;">
+            <img src="{% static 'backend.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">BACKEND: Django</p>
+            </div>
+        </div>
+    </div>   
+</div>    
+
+</div>
+</div>
+<hr class="opacity-100 w-25 mx-auto">
+
+<div>
+
+</div>
+
+<div class="container mb-5 mt-5 py-3">
+    <h3 class="text-center">Trabajos</h3>
+    {% load static %}
+    <div class="container text-center">
+        <div>
+        <img src="{% static 'viajesdechile.png' %}" alt="img-fluid" width="220" height="220">
+        </div>
+        <a href="http://paolalarap.github.io/pruebaviajesdechile/" >Viaje de Chile</a>
+    </div>
+    
+</div>
+{% endblock %} 
